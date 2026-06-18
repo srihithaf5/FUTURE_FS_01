@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Srihitha Pattem | Full Stack Developer</title>
+
+    <meta name="description"
+        content="Professional Portfolio of Srihitha Pattem - Full Stack Developer, Web Developer, Machine Learning Enthusiast">
+
+    <meta name="keywords"
+        content="Portfolio, Full Stack Developer, Web Developer, React Developer, Python Developer">
+
+    <meta name="author" content="Srihitha Pattem">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Srihitha<span>.</span>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#education">Education</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#resume">Resume</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="nav-icons">
+
+                <button id="darkModeBtn">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <div class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Srihitha Pattem</h1>
+
+            <h2>
+                <span id="typing-text"></span>
+            </h2>
+
+            <p>
+                Passionate Full Stack Developer pursuing Computer Science Engineering with a strong
+                interest in building scalable web applications, intelligent systems,
+                Machine Learning solutions, IoT innovations and Cyber Security projects.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Profile Section -->
+
+        <div class="profile-container">
+
+            <img id="profilePreview"
+                src="https://via.placeholder.com/350x350.png?text=Upload+Profile+Photo"
+                alt="Profile Picture">
+
+            <label class="upload-btn">
+                Upload Profile Picture
+                <input type="file"
+                    id="profileUpload"
+                    accept="image/*"
+                    hidden>
+            </label>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div class="about-card">
+
+                <p>
+                    I am a Computer Science Engineering student at
+                    Jyothishmathi Institute of Technology and Science
+                    with a strong academic background and a passion
+                    for software development.
+
+                    My interests span Full Stack Development,
+                    Machine Learning, Artificial Intelligence,
+                    IoT Systems and Cyber Security.
+
+                    I enjoy building innovative solutions that solve
+                    real-world problems and continuously learning
+                    emerging technologies.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="section">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-content">
+
+                    <h3>B.Tech - Computer Science Engineering</h3>
+
+                    <h4>Jyothishmathi Institute of Technology and Science</h4>
+
+                    <p>2023 - 2027</p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-content">
+
+                    <h3>Intermediate</h3>
+
+                    <h4>Sree Chaitanya Junior College</h4>
+
+                    <p>97.5%</p>
+
+                    <p>2021 - 2023</p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-content">
+
+                    <h3>SSC</h3>
+
+                    <h4>Zilla Parishad High School</h4>
+
+                    <p>100%</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">HTML5</div>
+
+            <div class="skill-card">CSS3</div>
+
+            <div class="skill-card">JavaScript</div>
+
+            <div class="skill-card">React.js</div>
+
+            <div class="skill-card">Node.js</div>
+
+            <div class="skill-card">MongoDB</div>
+
+            <div class="skill-card">Python</div>
+
+            <div class="skill-card">Flask</div>
+
+            <div class="skill-card">SQL</div>
+
+            <div class="skill-card">Git</div>
+
+            <div class="skill-card">GitHub</div>
+
+            <div class="skill-card">Machine Learning</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+        <h2 class="section-title">Projects</h2>
+
+        <!-- Filters -->
+
+        <div class="filter-buttons">
+
+            <button class="filter-btn active" data-filter="all">All</button>
+
+            <button class="filter-btn" data-filter="iot">IoT</button>
+
+            <button class="filter-btn" data-filter="ml">ML</button>
+
+            <button class="filter-btn" data-filter="web">Web</button>
+
+            <button class="filter-btn" data-filter="security">Security</button>
+
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+
+            <div class="project-card" data-category="iot">
+
+                <img src="assets/images/garbage-monitoring-1.jpg"
+                    alt="Project">
+
+                <h3>Smart Garbage Monitoring System</h3>
+
+                <p>
+                    IoT-based waste management system that monitors
+                    garbage levels in real-time and alerts authorities
+                    for efficient collection.
+                </p>
+
+                <div class="project-buttons">
+
+                    
+                    <button class="view-gallery-btn"
+                    data-project="garbage">
+                    View Results
+                    </button>
+
+                    <a href="#" class="project-btn">
+                        View Code
+                    </a>
+
+                </div>
+                
+
+            </div>
+
+            <!-- Project 2 -->
+
+            <div class="project-card" data-category="ml">
+
+                <img src="assets/images/scheme-recommendation-1.jpg"
+                    alt="Project">
+
+                <h3>Government Scheme Recommendation System</h3>
+
+                <p>
+                    Machine Learning application that recommends
+                    government schemes based on eligibility criteria.
+                </p>
+
+                <div class="project-buttons">
+
+                    <button class="view-gallery-btn"
+                    data-project="scheme">
+                    View Results
+                    </button>
+
+                    <a href="#" class="project-btn">
+                        View Code
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 3 -->
+
+            <div class="project-card" data-category="security">
+
+                <img src="assets/images/shadow-login-1.jpg"
+                    alt="Project">
+
+                <h3>Shadow Login System</h3>
+
+                <p>
+                    Deceptive authentication system with dual-password
+                    login, decoy dashboards and real-time intrusion alerts.
+                </p>
+
+                <div class="project-buttons">
+
+                    <button class="view-gallery-btn">
+                        View Results
+                    </button>
+
+                    <a href="#" class="project-btn">
+                        View Code
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 4 -->
+
+            <div class="project-card" data-category="ml">
+
+                <img src="assets/images/plant-disease-1.jpg"
+                    alt="Project">
+
+                <h3>Image Based Plant Disease Detection</h3>
+
+                <p>
+                    Deep Learning model that detects plant diseases
+                    from uploaded leaf images.
+                </p>
+
+                <div class="project-buttons">
+
+                    <button class="view-gallery-btn"
+                    data-project="plant">
+                    View Results
+                    </button>
+
+                    <a href="https://github.com/srihithaf5/plant_disease_detection.git" class="project-btn">
+                        View Code
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 5 -->
+
+            <div class="project-card" data-category="web">
+
+                <img src="assets/images/task-manager-1.jpg"
+                    alt="Project">
+
+                <h3>Task Manager Application</h3>
+
+                <p>
+                    Productivity application for task planning,
+                    tracking progress and improving workflow efficiency.
+                </p>
+
+                <div class="project-buttons">
+
+                    <button class="view-gallery-btn"
+                    data-project="task">
+                    View Results
+                    </button>
+
+                    <a href="https://github.com/srihithaf5/TASK-MANAGER-WITH-PROGRESS-TRACKER.git" class="project-btn">
+                        View Code
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= RESUME ================= -->
+
+    <section id="resume" class="section">
+
+        <h2 class="section-title">Resume</h2>
+
+        <div class="resume-box">
+
+            <p>
+                Download my latest resume.
+            </p>
+
+            <a href="assets/resume/Resume.pdf"
+                class="btn primary-btn"
+                download>
+                Download Resume
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <form id="contact-form">
+
+            <input type="text"
+                name="name"
+                placeholder="Your Name"
+                required>
+
+            <input type="email"
+                name="email"
+                placeholder="Your Email"
+                required>
+
+            <input type="text"
+                name="subject"
+                placeholder="Subject"
+                required>
+
+            <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+                required></textarea>
+
+            <button type="submit"
+                class="btn primary-btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h3>Srihitha Pattem</h3>
+
+        <div class="social-links">
+
+            <a href="https://github.com/srihithaf5">
+                <i class="fab fa-github"></i>
+            </a>
+
+            
+            <a href="https://www.linkedin.com/in/srihitha-pattem-62556a347">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            
+
+           
+        </div>
+
+        <p>
+            © 2025 Srihitha Pattem | Full Stack Developer
+        </p>
+
+    </footer>
+
+    <!-- ================= PROJECT MODAL ================= -->
+
+    <div id="galleryModal" class="modal">
+
+    <span class="close-modal">&times;</span>
+
+    <button id="prevBtn">❮</button>
+
+    <img class="modal-content" id="modalImage">
+
+    <button id="nextBtn">❯</button>
+
+    </div>
+
+    <!-- EmailJS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
