@@ -9,7 +9,7 @@ A modern, responsive, and interactive portfolio website developed as part of the
 Add your GitHub Pages link here after deployment:
 
 ```text
-https://yourusername.github.io/FUTURE_FS_01/
+https://srihithaf5.github.io/FUTURE_FS_01/
 ```
 
 ---
